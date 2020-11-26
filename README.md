@@ -2,6 +2,7 @@
 Электронная почта: grishanchel@mail.ru
 VK: https://vk.com/chopchopchopp
 Telegram: @grishanchel
+
 [ НАЗВАНИЕ ПРОЕКТА ]
 
 'GoКуDa'
