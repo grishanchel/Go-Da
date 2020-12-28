@@ -1,9 +1,9 @@
-#Уклеин Григорий - Go.Kuda
+# Уклеин Григорий - Go.Kuda
 
-###Группа: 10 - И - 1
-###Электронная почта: grishanchel@mail.ru
-###VK: https://vk.com/chopchopchopp
-###Telegram: @grishanchel
+### Группа: 10 - И - 1
+### Электронная почта: grishanchel@mail.ru
+### VK: https://vk.com/chopchopchopp
+### Telegram: @grishanchel
 
 **[ НАЗВАНИЕ ПРОЕКТА ]**
 
