@@ -1,4 +1,4 @@
-//deykstra
+//deykstra to speed up the program
 import math
 n, s, f = map(int, input().split())
 s -= 1
