@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/edago_image"/>
+
+    <LinearLayout
+        android:id="@+id/layout_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Название заведения"
+            android:inputType="textLongMessage" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Название блюда"
+            android:inputType="textLongMessage" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Тип заведения"
+            android:inputType="textLongMessage" >
+
+            <AutoCompleteTextView
+                android:id="@+id/Ntype"
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:layout_marginLeft="0dp"
+                android:layout_height="match_parent"
+                android:inputType="none"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Цена"
+            android:inputType="textLongMessage" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/metro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Метро"
+            android:inputType="textLongMessage" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Сайт"
+            android:inputType="textLongMessage" />
+
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сохранить" />
+
+    </LinearLayout>
+
+</LinearLayout>

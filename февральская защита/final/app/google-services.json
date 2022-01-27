@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "453046359630",
+    "project_id": "mostfi",
+    "storage_bucket": "mostfi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453046359630:android:5c7887ac75682d1efcd51f",
+        "android_client_info": {
+          "package_name": "com.example.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453046359630-nql16tbv3erab3hsecrldh4ceh5l6fsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH4cWoDRN8QKDe8fGo9AWgJTKCjfopQZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453046359630-nql16tbv3erab3hsecrldh4ceh5l6fsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
