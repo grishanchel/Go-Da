@@ -1,0 +1,1 @@
+({"_classDescription":{"_className":"com.example.afinal.Users","_attributes":["public"]},"_methodName":"new","_attributes":["public"],"_argNames":["docId","uid","email","password","avatar"],"_argTypes":["java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String"],"_returnType":"com.example.afinal.Users","offset":168} )
